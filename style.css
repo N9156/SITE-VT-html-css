@@ -1,0 +1,186 @@
+/*
+Author: Nathalie Pichon
+
+css du site autoluxeoccaz
+*/
+body{
+	/*background: black;/*noir*/
+	background: url('img/backgroundNAb.jpg');/*abeille*/
+	
+	color:#c7b074;/*gold*/
+	}
+
+h1{
+	text-align :center;
+	font-weight:b;
+	font-size:45px;
+	/*text-shadow: #FC0 1px 0 10px;*/
+	text-shadow: 5px 5px 5px #000000;
+	letter-spacing: 6px;
+	margin-bottom: 115px;
+
+				}
+
+/*Menu*/
+nav {
+	  height: 15px;
+	  position: fixed;
+	  top: -20px;
+	  width: 100%;
+	  z-index: 1;
+	}
+
+
+nav ul {
+	background: #4C1B1B;/*chocolat*/
+	height: 84px;
+	margin-top: 112px;
+}
+
+ nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	
+	text-align: center;
+}
+
+nav ul li a{
+	padding: 51px;
+	color: #c7b074;/*bleu*/
+    font-size: 25px;
+    text-decoration: none;
+}
+ 
+
+#logoMenu{
+	height: 75px;
+}
+
+ nav ul li:hover a{
+ 	color: red;
+ }
+
+
+/*css containeur */
+
+ .container{
+ 	width: 60%;
+    margin: auto;
+    background: #c7b074;/*gold*/
+    padding: 10px;
+    margin-top:55px;
+    color: black;
+
+    /************************/
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /************************/
+
+	  margin-bottom: 175px;
+ }
+
+ .container .images{
+ 	width: 25%;
+ 	flex-grow: 1;/*occupera au min une fois plus de largeur que les autres contenus*/
+ }
+
+
+ .entour{
+ 	width: 200px;
+ 	height: 200px;
+ 	border: 2px solid;
+	border-radius: 15px;
+	margin: 3px;
+ }
+
+
+ 
+/*traitement images*/
+.images img{
+ 	width: 200px;
+ 	height: 200px;
+ 	border: 1px solid;
+	border-radius: 15px;
+
+}
+
+.images img:hover{
+	transform: rotate(90deg);
+}
+
+
+
+/*immage rotative*/
+
+.imgRotatv{
+	width: 200px;
+ 	height: 200px;
+ 	border: 1px solid;
+	border-radius: 15px;
+	transition: 2s;
+	background: url('img/ferrari.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	
+
+}
+
+
+
+
+
+ footer{
+	color: #c7b074;/*gold*/
+	background: #4C1B1B;/*chocolat*/
+	
+	bottom: 0px;
+	width: 100%;
+}
+
+.groupInfo{
+margin-bottom: 39px;
+text-align: center;
+}
+
+.groupInfo img{
+	width: 60px;
+	height: 60px;
+	margin: 3px;
+	border-radius: 50%;
+	border: 1px solid;
+	background: #c7b074;/*gold*/
+
+}
+
+.groupInfo img:hover{
+	background: #9ED4CD;
+}
+
+
+.socials, address{
+	text-align: center;
+}
+
+.socials img{
+	width: 60px;
+	height: 60px;
+	margin: 10px;
+	border-radius: 50%;
+	border: 1px solid;
+	background: #c7b074;/*gold*/
+}
+
+.socials img:hover{
+	background: #9ED4CD;
+}
+
+#footer{
+	color:#c7b074;
+}
+
+
+
+
+
